@@ -1,0 +1,179 @@
+@media only screen and (max-width: 980px) {
+    
+    section.section-three {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .text-heading-content {
+        max-width: 440px;
+    }
+    
+    .text-heading-content-section-four {
+        max-width: 440px;
+    }
+       
+  }
+
+  @media only screen and (max-width: 850px) {
+    
+    section.section-two {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    section.section-four {
+        flex-direction: column;
+    }
+
+    h2.heading-two-section-four {
+        text-align: left;
+    }
+    
+    p.paragraph-section-four {
+        text-align: left;
+    }
+
+    .text-heading-content {
+        max-width: 652px;
+    }
+    .text-heading-content-section-four {
+        max-width: 652px;
+    }
+       
+  }
+
+  @media only screen and (max-width: 768px) {
+    
+    section.section-two {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    p.paragraph {
+        text-align: center;
+    }
+
+    h2.heading-two {
+        text-align: center;
+    }
+
+    h1.heading-one {
+        text-align: center;
+    }
+
+    h1.heading-one::after {
+        margin: 16px auto;
+    }
+
+    h2.heading-two-section-four {
+        text-align: center;
+    }
+    
+    p.paragraph-section-four {
+        text-align: center;
+    }
+
+    .footer-container-2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+    }
+    
+    a.footer-column-text-link {
+        text-align: center;
+    }
+    
+    h2.footer-column-h2 {
+        text-align: center;
+    }
+
+    .footer-container {
+        justify-content: center;
+    }
+
+    h2.footer-heading {
+        text-align: center;
+    }
+       
+  }
+
+  @media only screen and (max-width: 520px) {
+    
+    .footer-container-3 {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    a.footer-container-2-text-link {
+        text-align: center;
+    }
+
+    .footer-container-4 {
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    a.footer-container-2-text-link-2-padding {
+        border-right: none;
+        text-align: center;
+        padding-right: 0px;
+        border-bottom: 1px solid #7b9c9e;
+        padding-bottom: 20px;
+    }
+    
+    p.footer-container-5-text {
+        text-align: center;
+    }
+    }
+
+    @media only screen and (max-width: 880px) {
+        .utility-nav {
+            display: none;
+        }
+        
+        .secondary-nav {
+            display: none;
+        }
+        
+        .tertiary-nav {
+            display: none;
+        }
+
+        ul.Nav-items {
+            display: none;
+        }
+
+        .hamburger {
+            display: block;
+        }
+
+        nav.Main-Navigation {
+            justify-content: space-between;
+            background: #005B66;
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        ul.Nav-Buttons {
+            display: none;
+        }
+
+        img.Hydro-One-Logo {
+            filter: brightness(0) invert(1);
+        }
+      
+        }
+
+        @media only screen and (max-width: 320px) {
+            img.card-img {
+                width: 250px;
+              
+            }
+            
+            .card {
+                width: 250px;
+            }
+            }
